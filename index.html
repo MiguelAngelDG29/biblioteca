@@ -5,22 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
-<body style="background-color: white;">
-    <header style="background-color: blue;">
-        <h1>Titulo 1</h1>     
-        <h2>Titulo 2</h2>
-    </header>
-    <div> 
-      <img src="img/png-transparent-a-o-t-wings-of-freedom-eren-yeager-bertholdt-hoover-attack-on-titan-logo-others-angle-emblem-rectangle.png">  
-    </div>
-    <main>
+    <link rel="stylesheet" href="estilos/index.css">
 
+</head>
+<body>
+    <header></header>
+      <div class="estilo-caja-logo"> 
+        <img src="img/png-transparent-a-o-t-wings-of-freedom-eren-yeager-bertholdt-hoover-attack-on-titan-logo-others-angle-emblem-rectangle.png">  
+      </div>
+
+      <div class="estilo-caja-logo estilo-caja-logo2">
+           <h1 class="color1">BIBLIOTECA</h1>
+      </div>
+      <nav style="text-align: center">
+        <ul>
+            <li style="display:inline-table"><a href="#">Inicion</a></li>
+            <li style="display:inline-table"><a href="#">Sobre Nosotros</a></li>
+            <li style="display:inline-table"><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+
+    <main style="text-align: center">
+        <h1 class="color2" id="titulo-formulario">Formulario - Crear Libros</h1>
+        <form>
+            <labe>Nombre Libro</label>
+            <input type="text" id="Nombre_Libro" name="nombre_libro">
+            <br /><br />
+            <label>Autor</label>
+            <select id="autor">
+                <option value="1">Grabiel Garcia Marquez</option>
+                <option value="2">Mario Benedeti</option>     
+            </select>
+            <br /><br/>
+
+            <input type="submit" value="Guardar">
+            <button>Modificar</button>
+        </form>
     </main>
+    <br /><br /></br />
+
+    
+        <table style="margin-left:auto ;margin-right: auto;">
+            <thead>
+                <tr>
+                   <th>Header content 1</th>
+                   <th>Header content 2</th>
+                </tr>
+            </thead>
+            <tfoot>
+                <td>Footer content 1</td>
+                <td>Footer content 2</td>
+            </tfoot>
+            <tbody>
+                <tr>
+                    <td>Body content 1</td>
+                    <td>BOdy content 2</td>
+                </tr>
+            </tbody>
+        </table>
+    
+
     <footer>
 
-    </footer>
-    <p>Hola a todos en el mundo que tal como </p>
+    </footer>       
+    
 </body>
 </html> 
 

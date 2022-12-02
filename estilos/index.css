@@ -1,0 +1,19 @@
+.estilo-caja-logo{
+    float: left;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+
+}
+.estilo-caja-logo{
+    float: left;
+}
+bo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color1{    
+    color: red;
+}
+.color2{
+    color: green;
+}
