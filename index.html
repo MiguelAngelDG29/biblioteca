@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 
 </head>
 <body>
-    <header></header>
+    <header>
       <div class="estilo-caja-logo"> 
         <img src="img/png-transparent-a-o-t-wings-of-freedom-eren-yeager-bertholdt-hoover-attack-on-titan-logo-others-angle-emblem-rectangle.png">  
       </div>
@@ -17,19 +18,19 @@
       <div class="estilo-caja-logo estilo-caja-logo2">
            <h1 class="color1">BIBLIOTECA</h1>
       </div>
-      <nav style="text-align: center">
+      <nav id="menu" >
         <ul>
-            <li style="display:inline-table"><a href="#">Inicion</a></li>
-            <li style="display:inline-table"><a href="#">Sobre Nosotros</a></li>
-            <li style="display:inline-table"><a href="#">Contacto</a></li>
-        </ul>
+            <li><a href="#">Inicion</a></li>
+            <li><a href="#">Sobre Nosotros</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>   
       </nav>
       
     </header>
 
-    <main style="text-align: center">
-        <h1 class="color2" id="titulo-formulario">Formulario - Crear Libros</h1>
-        <form>
+    <main style="text-align: center" id="caja-principal">
+        <h1 class="color2" id="titulo-formulario">Crear Libros</h1>
+        <form class="formulario">
             <labe>Nombre Libro</label>
             <input type="text" id="Nombre_Libro" name="nombre_libro">
             <br /><br />
@@ -40,14 +41,15 @@
             </select>
             <br /><br/>
 
-            <input type="submit" value="Guardar">
-            <button>Modificar</button>
+            <input class="boton_guardar" type="submit" value="Guardar">
+            <input class="boton_guardar" type="submit" value="Modificar">
+            
         </form>
     </main>
-    <br /><br /></br />
+    <br /><br />
 
     
-        <table style="margin-left:auto ;margin-right: auto;">
+        <table>
             <thead>
                 <tr>
                    <th>Header content 1</th>
@@ -65,12 +67,34 @@
                 </tr>
             </tbody>
         </table>
-    
+    <br /><br /><br />
 
     <footer>
+       <div class="caja_footer1">
+           <div class="caja_superior">
+              <div class="caja_superior1">
+                <h3>Attractions</h3>
+              </div>
+              <div class="caja_superior2"></div>
+           </div>
+           <div class="caja_media">
+             <div class="caja_media1">
 
-    </footer>       
-    
+             </div>
+             <div class="caja_media2">
+
+             </div>
+           </div>
+       </div>
+       <div class="caja_footer2">
+           
+       </div>
+       <div class="caja_footer3">
+
+       </div>
+    </footer> 
+
+    <br /><br /><br />
 </body>
 </html> 
 
